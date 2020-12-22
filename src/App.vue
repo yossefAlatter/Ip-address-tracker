@@ -120,4 +120,19 @@ export default {
 #myerror{
   display: none;
 }
+@media screen and (max-height: 680px){
+  .info-sec-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 990;
+}
+}
+@media screen and (min-height: 680px){
+  .info-sec-container{
+    display: block;
+  }
+
+}
 </style>
